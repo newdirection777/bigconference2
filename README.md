@@ -1,14 +1,14 @@
-Welcome to Conference Central, a web app for managing conferences.
+### Welcome to Conference Central, a web app for managing conferences. ###
 
 This app allows you to view, create, and modify conferences and conference
 sessions.
 
-1. To use this app, point your web browser to:
+### To use this app, point your web browser to: ###
 
 bigconference2.appspot.com
 
 
-2. Design notes:
+### Design notes: ###
 
 The Session class contains the fields specified in the problem description
 plus the websafe key of the session and its parent conference.  Inclusion
@@ -26,7 +26,7 @@ the user decide if they want to attend a session with that speaker.
 In cases like that we could introduce a separate data class called Speaker.
 
 
-3. Task notes:
+### Task notes: ###
 
 For Task 3, the following additional queries are implemented:
 GetSessionsByDate - shows all the sessions happening on a specific day
